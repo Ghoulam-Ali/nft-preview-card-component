@@ -9,10 +9,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-![nft-card](https://user-images.githubusercontent.com/79658534/153713721-9d68e7f0-6f20-4534-97d2-7f7059a1978b.png)
-
 
 ### Links
 
