@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-hulWlhTaf](https://www.frontendmentor.io/solutions/nft-preview-card-component-hulWlhTaf)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-kUOCJ7PzC1](https://www.frontendmentor.io/solutions/nft-preview-card-component-kUOCJ7PzC1)
 - Live Site URL: [https://rak-preview-card-component.netlify.app/](https://rak-preview-card-component.netlify.app/)
 
 
