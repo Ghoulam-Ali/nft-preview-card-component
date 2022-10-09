@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  background: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+#container {
+  background-color: hsl(216, 50%, 16%);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+
+/* Images */
+#image-container {
+  height: 350px;
+}
+
+#main-image {
+  width: 350px;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  opacity: 1;
+  float: left;
+}
+
+#effect {
+  opacity: 0;
+  border-radius: 15px;
+  height: 350px;
+}
+
+#view {
+  width: 50px;
+  position: relative;
+  top: -57%;
+  left: 43%;
+}
+
+#image-container:hover #main-image {
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+#image-container:hover #effect {
+  opacity: 1;
+  background-color: hsla(178, 100%, 50%, 0.2);
+}
+
+
+
+
+#info {
+  width: 350px;
+}
+
+/* Heading */
+h1 {
+  clear: left;
+  color: white;
+  font-size: 26px;
+  padding: 20px 0;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+}
+
+
+/* Coin Date */
+#coin-date {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+#coin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#coin span {
+  color: hsl(178, 100%, 50%);
+}
+#date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#date span {
+  color: hsl(215, 51%, 70%);
+}
+
+
+/* User */
+#user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+#photo {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+#user p {
+  color: white;
+}
+
+p span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+
+/* Footer */
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  line-height: 26px;
+  color: white;
+  margin-top: 20px;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+/* media query for mobile */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #container {
+      padding: 18px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    .attribution {
+      font-size: 12px;
+    }
+}
